@@ -3,9 +3,9 @@
 	"id": "no-pork",
 	"version": "${version}",
 	"name": "No Pork",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Pork is Not safe to it Now!",
 	"authors": [
-		"Me!"
+		"WardarSoplya!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -19,13 +19,6 @@
 			"wardarsoplya.nopork.mc.NoPork"
 		]
 	},
-	"mixins": [
-		"no-pork.mixins.json",
-		{
-			"config": "no-pork.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~1.21.11",

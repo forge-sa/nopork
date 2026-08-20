@@ -18,7 +18,9 @@ public class NoPork implements ModInitializer {
 			ConsumableComponent badConsumable = ConsumableComponent.builder()
 					.consumeSeconds(1.6f)
 					.consumeEffect(new ApplyEffectsConsumeEffect(
-							List.of(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0))
+							List.of(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0),
+							new StatusEffectInstance(StatusEffects.POISON, 200, 0),
+							new StatusEffectInstance(StatusEffects.WEAKNESS, 200, 0))
 					))
 					.build();
 

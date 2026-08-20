@@ -1,9 +1,6 @@
-# No Pork
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# No Pork Mod
+- The target audience is muslim minecraft player
+- The mod applies Nausea effect on player everytime they eat raw/cooked porkchop
+- Effect lasts 10 seconds (200 ticks)
+- The mod is not intendent to hurt anybody's religious feelings
+- Fabric 1.21.11
